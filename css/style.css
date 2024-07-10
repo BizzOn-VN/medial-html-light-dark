@@ -13,11 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #EEEEEE;
+  color: #23221d;
   line-height: 1.5;
   background: #FFF;
   overflow: auto;
-  background: #23221d;
 }
 
 .page-listing, .page-hospital, .page-listing, .page-patient {
@@ -25,14 +24,14 @@ body {
 }
 
 a {
-  color: #EEEEEE;
+  color: #23221d;
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
 }
 a:hover {
   text-decoration: none;
-  color: #EEEEEE;
+  color: #23221d;
 }
 a:focus {
   outline: none;
@@ -49,7 +48,7 @@ ul li {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
-  color: #EEEEEE;
+  color: #23221d;
 }
 
 p {
@@ -192,7 +191,7 @@ input[type=submit] {
 }
 
 .page-header {
-  background: #23221d;
+  background: #FFF;
   border-bottom: 1px solid #333333;
   display: -webkit-box;
   display: -webkit-flex;
@@ -425,13 +424,13 @@ input[type=submit] {
   position: relative;
 }
 .page-header .fl-right .form-search form .md-row .input-search {
-  background: #171715;
-  border: none;
+  background: #FFF;
+  border: 1px solid #000;
   height: 50px;
   border-radius: 111px;
   width: 100%;
   padding: 0px 50px 0px 20px;
-  color: #FFF;
+  color: #000;
 }
 @media screen and (max-width: 1170px) {
   .page-header .fl-right .form-search form .md-row .input-search {
@@ -477,7 +476,7 @@ input[type=submit] {
   color: red;
 }
 .page-header .fl-right .notification .ico-bell {
-  background: #333333;
+  background: #fff;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -486,6 +485,7 @@ input[type=submit] {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  border: 1px solid #000;
 }
 .page-header .fl-right .notification .ico-bell img {
   width: 20px;
@@ -521,7 +521,7 @@ input[type=submit] {
   top: calc(100% + 7px);
   right: 0px;
   width: 200px;
-  background: #222222;
+  background: #FFF;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #333333;
@@ -602,7 +602,7 @@ input[type=submit] {
   top: -webkit-calc(100% + 10px);
   top: calc(100% + 10px);
   right: 0px;
-  background: #222222;
+  background: #fff;
   border: 1px solid #333333;
   border-radius: 8px;
   padding: 15px 0px;
@@ -641,6 +641,7 @@ input[type=submit] {
   -webkit-transition-duration: 0.5s;
        -o-transition-duration: 0.5s;
           transition-duration: 0.5s;
+          color: #fff;
 }
 .sub-notification ul li:last-child {
   margin-bottom: 0px;
@@ -895,7 +896,7 @@ p.error {
 }
 
 .page-main {
-  background: #23221d;
+  background: #FFF;
   min-width: 1024px;
   min-height: 550px;
   overflow: hidden;
@@ -910,7 +911,7 @@ p.error {
   width: 250px;
   padding: 15px 10px 5px 10px;
   border-right: 1px solid #333333;
-  background: #23221d;
+  background: #FFF;
   float: left;
   position: relative;
 }
@@ -1012,7 +1013,7 @@ p.error {
 .blk-worklist .item ul li a {
   display: block;
   position: relative;
-  color: #999999;
+  color: #000;
   padding-left: 20px;
 }
 .blk-worklist .item ul li a.active {
@@ -1038,7 +1039,7 @@ p.error {
 
 .smd-dropdown-nomal.ui.selection.dropdown {
   min-width: auto;
-  background: #222222;
+  background: #FFF;
   border-radius: 8px;
   border: 1px solid #333333;
   margin-right: 15px;
@@ -1050,7 +1051,7 @@ p.error {
   margin-right: 0px;
 }
 .smd-dropdown-nomal.ui.selection.dropdown .text {
-  color: #EEEEEE;
+  color: #333;
 }
 
 .smd-dropdown-nomal.ui.dropdown > .dropdown.icon:before {
@@ -1176,7 +1177,8 @@ p.error {
 .blk-table-admin .blk-control .nav .number {
   float: left;
   margin-left: 7px;
-  background: #333333;
+  background: #FFF;
+  border: 1px solid #333;
   display: inline-block;
   padding: 3px 15px 4px 9px;
   border-radius: 15px;
@@ -1206,7 +1208,7 @@ p.error {
   margin-top: -1px;
   position: -webkit-sticky !important;
   position: sticky !important;
-  background: #333333;
+  background: #FFF;
   position: relative;
   z-index: 50;
 }
@@ -1224,7 +1226,7 @@ p.error {
 
 .table {
   width: auto !important;
-  color: #EEEEEE;
+  color: #333;
   table-layout: fixed;
   border-collapse: collapse;
   overflow: inherit !important;
@@ -1238,8 +1240,8 @@ p.error {
   border-top: 1px solid #333;
   color: #999999;
   min-width: 50px;
-  font-weight: 400;
-  color: #999999;
+  font-weight: 700;
+  color: #333;
 }
 .table th, .table td {
   padding: 0.45rem;
@@ -1261,7 +1263,7 @@ p.error {
   overflow: hidden;
 }
 .table .tr-more {
-  background: #323027;
+  background: #FFF;
   padding: 0px;
   display: none;
 }
@@ -1271,7 +1273,7 @@ p.error {
 .table .tr-more th {
   border: 1px solid #222222;
   border-top: 1px solid #323027;
-  background: #323027;
+  background: #FFF;
 }
 .table .tr-more td {
   padding: 0px;
@@ -1284,7 +1286,7 @@ p.error {
 .table .tr-more td table {
   width: auto !important;
   margin: 0;
-  background: #323027;
+  background: #fff;
 }
 .table .tr-more td table td {
   padding: 0.45em;
@@ -1300,7 +1302,8 @@ p.error {
   display: inline-block;
   line-height: 32px;
   text-align: center;
-  background: #333333;
+  background: #fff;
+  border: 1px solid #000;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -1393,7 +1396,8 @@ table tr .status.status-da-chup-hl {
 
 .md-pagination a {
   display: inline-block;
-  background: #333333;
+  background: #fff;
+  border: 1px solid #333;
   height: 40px;
   width: 40px;
   line-height: 40px;
@@ -1563,8 +1567,8 @@ table tr .status.status-da-chup-hl {
   height: 0px;
   position: absolute;
   overflow: hidden;
-  color: #EEEEEE;
-  background: #171715;
+  color: #333;
+  background: #FFF;
   padding: 0px;
   width: 520px;
 }
@@ -1592,7 +1596,8 @@ table tr .status.status-da-chup-hl {
 .md-modal .top-title {
   font-weight: 600;
   font-size: 20px;
-  background: #080b0c;
+  background: #FFF;
+  border-bottom: 1px solid #000;
   padding: 10px 20px;
   text-align: center;
 }
@@ -1612,9 +1617,10 @@ table tr .status.status-da-chup-hl {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  background: #333333;
+  background: #FFF;
   padding: 0px 25px 0px 12px;
-  color: #EEEEEE;
+  color: #333;
+  border: 1px solid #000;
 }
 .md-modal .ui.selection.dropdown .icon {
   top: 20px !important;
@@ -1654,11 +1660,11 @@ table tr .status.status-da-chup-hl {
   margin-left: 15px;
 }
 .md-modal .form-nomal .md-row input {
-  border: none;
+  border: 1px solid #000;
   height: 44px;
-  background: #333333;
+  background: #fff;
   border-radius: 111px;
-  color: #EEEEEE;
+  color: #333;
   padding: 0px 17px;
   width: 100%;
 }
@@ -1935,9 +1941,9 @@ table tr .status.status-da-chup-hl {
 .smd-search form .input-search {
   width: 100%;
   height: 50px;
-  background: #333333;
+  background: #FFF;
   padding: 0px 43px 0px 20px;
-  border: none;
+  border: 1px solid #333;
   border-radius: 111px;
   color: #FFF;
 }
@@ -2058,7 +2064,7 @@ table tr .status.status-da-chup-hl {
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 35px;
-  color: #EEEEEE;
+  color: #333;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -2087,37 +2093,37 @@ table tr .status.status-da-chup-hl {
 }
 
 .select2-container--default .select2-results > .select2-results__options {
-  background: #333333;
+  background: #FFF;
   border: none;
   width: 150px;
 }
 
 .select2-container--open .select2-dropdown--below {
-  background: #333333;
+  background: #FFF;
   height: 40px;
   border: none;
 }
 
 .select2-search.select2-search--dropdown {
-  background: #333333;
+  background: #FFF;
   width: 150px;
 }
 
 .select2-dropdown {
-  background: #333333;
+  background: #FFF;
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field {
-  background: #151515;
+  background: #FFF;
   border-radius: 111px;
-  border: none;
-  color: #FFF;
+  border: 1px solid #000;
+  color: #000;
   height: 40px;
   padding: 0px 15px;
 }
 
 .select2-container--default .select2-results__option--selected {
-  background-color: #333333;
+  background-color: #FFF;
 }
 
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
@@ -2249,7 +2255,7 @@ table tr .status.status-da-chup-hl {
   background: #FFF;
 }
 .group-select-permission ul li .ui.checkbox label {
-  color: #EEEEEE;
+  color: #333;
 }
 .group-select-permission ul li .ui.checkbox label:before {
   background: none;
@@ -2544,7 +2550,8 @@ table tr .status.status-da-chup-hl {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
-  background: #222222;
+  background: #FFF;
+  border: 1px solid #000;
   padding: 6px 20px 6px 5px;
 }
 
@@ -2635,7 +2642,7 @@ table tr .status.status-da-chup-hl {
 }
 
 .smd_dropdown_menu li {
-  background: #2b2520;
+  background: #FFF;
   position: relative;
 }
 
@@ -2645,11 +2652,11 @@ table tr .status.status-da-chup-hl {
 }
 
 .smd_dropdown_menu li ul li {
-  background: #524e3d;
+  background: #FFF;
 }
 
 .smd_dropdown_menu li ul li:hover {
-  background: #3c392d;
+  background: #FFF;
 }
 
 .s-menu-1 {
@@ -2731,7 +2738,7 @@ table tr .status.status-da-chup-hl {
 }
 
 .page-notification-detail {
-  background: #4e4a4a;
+  background: #FFF;
   min-width: auto;
 }
 .page-notification-detail .title-notice {
@@ -2748,6 +2755,7 @@ table tr .status.status-da-chup-hl {
 }
 .page-notification-detail .list-notice li:hover {
   background: #444242;
+  color: #FFF;
 }
 .page-notification-detail .list-notice li .info {
   font-size: 13px;
@@ -2943,7 +2951,7 @@ table tr .status.status-da-chup-hl {
   margin: 0 auto;
   width: 100%;
   padding: 0px 5px;
-  background: #222222;
+  background: #FFF;
   border-radius: 7px;
   border: 1px solid #292929;
   height: 35px;
@@ -2959,7 +2967,7 @@ table tr .status.status-da-chup-hl {
   margin: 0 auto;
   width: 100%;
   padding: 0px 5px;
-  background: #222222;
+  background: #FFF;
   border-radius: 7px;
   border: 1px solid #292929;
   height: 35px;
@@ -3067,6 +3075,10 @@ table tr .status.status-da-chup-hl {
 .blk-top-login h2 {
   font-size: 32px;
   font-weight: 700;
+  color: #fff;
+}
+.blk-top-login span{
+  color: #FFF;
 }
 
 .blk-signin {
@@ -3077,6 +3089,10 @@ table tr .status.status-da-chup-hl {
 .blk-signin .top-title {
   text-align: center;
   margin-bottom: 0px;
+  color: #FFF;
+}
+.blk-signin .top-title p{
+  color: #FFF;
 }
 .blk-signin .top-title strong {
   display: block;
@@ -3256,7 +3272,7 @@ table tr .status.status-da-chup-hl {
   position: sticky !important;
   overflow: initial;
   top: 0px;
-  background: #151515;
+  background: #FFF;
   z-index: 100;
 }
 .page-work-list .blk-table-admin .blk-table .table thead th:before {
@@ -3278,6 +3294,7 @@ table tr .status.status-da-chup-hl {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  background: #FFF;
 }
 
 .blk-checkbox .ui.checkbox {
@@ -3312,7 +3329,7 @@ table tr .status.status-da-chup-hl {
 }
 .blk-checkbox .checkbox-1 label {
   text-transform: uppercase;
-  color: #EEEEEE !important;
+  color: #333 !important;
   font-weight: 700;
 }
 .blk-checkbox .checkbox-1 label:hover {
@@ -3337,21 +3354,21 @@ table tr .status.status-da-chup-hl {
   color: #4EC903;
 }
 .blk-checkbox .checkbox-5 label {
-  color: #EEEEEE !important;
+  color: #333 !important;
 }
 .blk-checkbox .checkbox-5 label:hover {
   color: #EEEEEE;
 }
 
 .md-blk-control {
-  background: #333333;
+  background: #FFF;
   padding: 7px 0px;
 }
 .md-blk-control .ui.selection.dropdown {
   margin-right: 2px;
   width: 100px;
   padding: 0.78571429em 1.7em 0.78571429em 0.5em;
-  background: #222222;
+  background: #FFF;
 }
 .md-blk-control .fl-left .nav-tabs {
   display: inline-block;
@@ -3440,7 +3457,7 @@ table tr .status.status-da-chup-hl {
   display: block;
 }
 .ca-chup-khac .tab-content {
-  background: #333333;
+  background: #FFF;
   padding: 15px 0px 10px 15px;
   max-height: 100%;
   width: -webkit-calc(100% - 500px);
@@ -3557,11 +3574,13 @@ table tr .status.status-da-chup-hl {
 }
 .ca-chup-khac .tab-content .group-button .fl-right .button {
   margin-right: 5px;
+  background: #FFF;
+  border: 1px solid #333;
 }
 
 .blk-ca-chup-khac {
   max-height: 100%;
-  background: #151515;
+  background: #FFF;
   width: 280px;
   float: left;
 }
@@ -3575,6 +3594,7 @@ table tr .status.status-da-chup-hl {
 }
 .blk-ca-chup-khac .nav-tabs {
   border: none;
+  background: #FFF;
 }
 .blk-ca-chup-khac .nav-tabs li {
   display: block;
@@ -3589,8 +3609,8 @@ table tr .status.status-da-chup-hl {
   border-radius: 0px;
 }
 .blk-ca-chup-khac .nav-tabs li a.active {
-  background: #333333;
-  color: #EEEEEE;
+  background: #FFF;
+  color: #333;
 }
 .blk-ca-chup-khac .nav-tabs li a p {
   margin-bottom: 5px;
@@ -3845,15 +3865,15 @@ table tr .status.status-da-chup-hl {
   }
 }
 .spitter-ml3 .panel-top table tbody tr:nth-child(2n) {
-  background: #2b2d2e;
+  background: #FFF;
 }
 
 .spitter-ml3 .panel-top table tbody tr:nth-child(2n+1) {
-  background: #202324;
+  background: #FFF;
 }
 
 .spitter-ml3 .panel-top table tbody tr.active {
-  background: #02A4E5;
+  background: #FFF;
 }
 
 textarea {
@@ -3931,8 +3951,8 @@ textarea {
   padding-right: 7px;
   height: 100%;
   z-index: 100;
-  background: #222222;
-  border-right: 1px solid #333;
+  background: #FFF;
+  border-right: 1px solid #FFF;
 }
 .sidebar-worklist.active-sidebar-worklist {
   left: 0px;
@@ -3998,7 +4018,7 @@ textarea {
   width: auto;
   min-width: 30px;
   line-height: 30px;
-  background: #444;
+  background: #FFF;
   padding: 0px 7px;
 }
 .page-work-list-2 .md-pagination a:first-child {
@@ -4110,7 +4130,7 @@ textarea {
   position: sticky;
   top: 0px;
   z-index: 100;
-  background: #202324;
+  background: #FFF;
 }
 
 /* layout general
@@ -4315,7 +4335,7 @@ strong.title {
   background: #23231d;
 }
 .page-trashbox_login .fl-left {
-  background: #171715;
+  background: #FFF;
   width: 50%;
   height: 100vh;
   display: -webkit-box;
@@ -4361,7 +4381,7 @@ strong.title {
   font-size: 14px;
   text-align: center;
   display: block;
-  color: #EEEEEE;
+  color: #333;
   text-decoration: none;
 }
 .page-trashbox_login .fl-left .logo a img {
@@ -4370,7 +4390,7 @@ strong.title {
   width: 100px;
 }
 .page-trashbox_login .fl-left form {
-  color: #EEEEEE;
+  color: #333;
 }
 .page-trashbox_login .fl-left form .md-row {
   margin-bottom: 25px;
@@ -4383,8 +4403,9 @@ strong.title {
   border: none;
   height: 44px;
   border-radius: 111px;
-  background: #333333;
-  color: #EEEEEE;
+  background: #FFF;
+  color: #333;
+  border: 1px solid #000;
 }
 .page-trashbox_login .fl-left form label {
   margin-left: 15px;
@@ -4429,14 +4450,14 @@ strong.title {
       -ms-transform: translateX(-50%);
        -o-transform: translateX(-50%);
           transform: translateX(-50%);
-  color: #EEE;
+  color: #333;
   font-size: 14px;
 }
 .page-trashbox_login .fl-left .title {
   margin-bottom: 30px;
 }
 .page-trashbox_login .fl-left .title strong {
-  color: #EEEEEE;
+  color: #333;
   display: block;
   text-align: center;
   font-weight: 700;
@@ -4447,9 +4468,10 @@ strong.title {
   text-align: center;
   font-size: 14px;
   margin: 10px 0px 25px;
+  color: #333;
 }
 .page-trashbox_login .fl-right {
-  background: #23221d;
+  background: #FFF;
   width: 50%;
   height: 100vh;
   display: -webkit-box;
@@ -4483,9 +4505,9 @@ strong.title {
   }
 }
 
-.page-study {
+/*.page-study {
   background: #323027;
-}
+}*/
 
 .ql-ditore {
   border: none;
@@ -4566,8 +4588,8 @@ strong.title {
   clear: both;
 }
 .left-study .table-content table thead th {
-  background: #222222;
-  color: #999999;
+  background: #FFF;
+  color: #333;
   font-weight: 400;
 }
 .left-study .table-content table thead th p {
@@ -4584,7 +4606,7 @@ strong.title {
   -webkit-box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.4);
           box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.4);
   z-index: 20;
-  background: #323027;
+  background: #FFF;
   height: 150px;
   overflow: hidden;
 }
@@ -4597,7 +4619,6 @@ strong.title {
   padding: 3px 5px;
 }
 .left-study .ca-chup .table-content table thead th {
-  color: #FFF;
   font-weight: 700;
 }
 .left-study .ca-chup .table-content table tbody tr {
@@ -4626,7 +4647,7 @@ strong.title {
   float: left;
   padding: 10px 5px 0px 5px;
   min-width: 100px;
-  background: #323027;
+  background: #FFF;
 }
 .right-study .ctn-inner {
   height: -webkit-calc(100% + 0px);
@@ -4673,7 +4694,8 @@ strong.title {
   float: left;
   margin-left: 5px;
   display: inline-block;
-  background: #222222;
+  background: #FFF;
+  border: 1px solid #000;
   padding: 8px 15px;
   border-radius: 111px;
   font-size: 12px;
@@ -4723,7 +4745,7 @@ strong.title {
   max-height: -webkit-calc(100% - 70px);
   max-height: calc(100% - 70px);
   min-height: 70px;
-  background: #323027;
+  background: #FFF;
   height: 200px;
 }
 .right-study .main-content .fl-left form .editor-gr .splitter-horizontal {
@@ -4736,7 +4758,7 @@ strong.title {
 .right-study .main-content .fl-left form .editor-gr .panel-container-2 {
   z-index: 10;
   position: relative;
-  background: #323027;
+  background: #FFF;
 }
 .right-study .main-content .fl-left form .editor-gr .panel-container-2 .md-scroll-xy {
   max-height: -webkit-calc(100% - 20px);
@@ -4906,7 +4928,8 @@ strong.title {
 }
 .right-study .bottom-content .fl-left .item .ui.selection.dropdown .text {
   display: inline-block;
-  background: #222222;
+  background: #FFF;
+  border: 1px solid #000;
   border-radius: 1px;
   height: 32px;
   line-height: 32px;
@@ -5889,10 +5912,11 @@ strong.title {
   margin: 0 auto;
 }
 #popup-tcd .header-pop-up {
-  background: #080b0c !important;
+  background: #FFF !important;
+  border-bottom: 1px solid #000;
 }
 #popup-tcd .modal-body {
-  background: #171715 !important;
+  background: #FFF !important;
   max-height: -webkit-calc(100vh - 50px);
   max-height: calc(100vh - 50px);
   overflow-x: hidden;
@@ -6035,9 +6059,10 @@ strong.title {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  background: #333333;
+  background: #FFF;
+  border: 1px solid #000;
   padding: 0px 25px 0px 12px;
-  color: #EEEEEE;
+  color: #333;
 }
 .panel-tcd .form-tcd .ui.selection.dropdown .icon {
   top: 17px !important;
@@ -6076,16 +6101,17 @@ strong.title {
 .panel-tcd .form-tcd .md-row input {
   border: none;
   height: 38px;
-  background: #333333;
+  background: #FFF;
   border-radius: 111px;
-  color: #EEEEEE;
+  color: #333;
+  border: 1px solid #000;
   padding: 0px 17px;
   width: 100%;
 }
 .panel-tcd .form-tcd .md-row textarea {
   resize: none;
-  color: #FFF;
-  background: #333333;
+  color: #333;
+  background: #FFF;
   padding: 10px 12px;
   width: 100%;
   height: 80px;
@@ -6176,7 +6202,7 @@ strong.title {
           flex-wrap: nowrap;
 }
 .tab-reporting ul.nav-reporting li {
-  background: #333333;
+  background: #FFF;
   border: 1px solid #292929;
   float: left;
 }
@@ -6187,7 +6213,7 @@ strong.title {
 }
 .tab-reporting ul.nav-reporting li .nav-link.active {
   color: #02A4E5;
-  background: #333333;
+  background: #FFF;
 }
 .tab-reporting ul.nav-reporting li .nav-link:hover {
   color: #02A4E5 !important;
@@ -6270,13 +6296,14 @@ strong.title {
   width: 115px;
   margin-right: 7px;
   border-radius: 1px;
-  background: #222222;
+  background: #FFF;
+  border: 1px solid #000;
 }
 .meta-bottom-reporting .meta-right .ui.selection.dropdown:last-child {
   margin-right: 0px;
 }
 .meta-bottom-reporting .meta-right .ui.selection.dropdown .text {
-  background: #222222;
+  background: #FFF;
   border-radius: 1px;
   height: 32px;
   line-height: 32px;
@@ -6348,7 +6375,7 @@ strong.title {
 
 .inner-bt-ct-rpt {
   position: relative;
-  background: #303030;
+  background: #fff;
   padding: 10px 10px 3px 10px;
 }
 
@@ -6423,7 +6450,8 @@ strong.title {
 }
 .bottom-content-reporting .fl-left .item .ui.selection.dropdown .text {
   display: inline-block;
-  background: #222222;
+  background: #FFF;
+  border: 1px solid #000;
   border-radius: 1px;
   height: 32px;
   line-height: 32px;
@@ -6439,7 +6467,8 @@ strong.title {
   float: left;
   margin-left: 5px;
   display: inline-block;
-  background: #222222;
+  background: #FFF;
+  border: 1px solid #000;
   padding: 8px 15px;
   border-radius: 111px;
   font-size: 12px;
@@ -6483,7 +6512,7 @@ strong.title {
 .gallery-icon-view {
   z-index: 1;
   display: inline-block;
-  background: #222222;
+  background: #FFF;
   padding: 6px 10px;
   border-radius: 111px;
   font-size: 12px;
@@ -8811,11 +8840,12 @@ div#zoom > img {
 .form-profile input[type=text] {
   padding: 0px 20px;
   width: 350px;
-  background: #333333;
+  background: #FFF;
   height: 44px;
   border: none;
   border-radius: 111px;
-  color: #EEEEEE;
+  color: #000;
+  border: 1px solid #333;
 }
 .form-profile .submit {
   display: table;
@@ -8854,12 +8884,12 @@ div#zoom > img {
  -----------------------------------------------------*/
 .dropdown_glc {
   width: 440px !important;
-  background: #323027 !important;
-  border: none !important;
+  background: #FFF !important;
+  border: 1px solid #000 !important;
   border-radius: 25px !important;
   margin-bottom: 12px;
   font-size: 12px;
-  color: #615b47;
+  color: #333;
 }
 .dropdown_glc.ui.selection.dropdown > .dropdown.icon {
   right: 13px !important;
